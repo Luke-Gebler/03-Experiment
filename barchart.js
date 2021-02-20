@@ -32,10 +32,6 @@ function generateBarChart(minplots = 5, maxplots = 5) {
         }
     }
 
-    console.log(targets);
-    console.log(colors);
-    console.log(data);
-
     d3.select("body").selectAll("div")
     .data(data)
     .enter()
